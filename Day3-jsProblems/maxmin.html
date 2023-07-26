@@ -80,7 +80,18 @@
       let min = Infinity;
 
       // 함수를 구현하세요!
-
+      for(let num of arr){
+         if(min > num)
+         {
+          min = num;
+         } 
+         if(max < num)
+         {
+          max = num;
+         }
+         
+      }
+      return[min,max]
       
     }
 
