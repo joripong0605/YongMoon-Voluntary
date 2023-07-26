@@ -48,6 +48,10 @@
     function switchclick() {
       if (state === "day") {
         // 내용을 채워주세요!
+        state = "night";
+        sphere.src = "moon.png";
+        sky.style.backgroundColor = "#404040";
+        switchBtn.innerText = 'day';
       } else {
         // 내용을 채워주세요!
       }
